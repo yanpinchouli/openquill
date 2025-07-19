@@ -1,35 +1,33 @@
-# SignFlow
+# OpenQuill
 
-> Open Source Electronic Signature Solution for Small Business and Individuals
+> ✍️ A minimalist, open-source e-signature tool for freelancers and small teams – powered by hand-drawn signing.
 
 ## 🚧 Status
 
-Early development - MVP in progress
+🎯 Focused on building a lean MVP:  
+**Upload a PDF → Place signature field → Invite → Guest signs → Download signed document**  
+No login required. No complexity. Just sign.
 
 ## 🛠️ Tech Stack
 
-- **Backend**: Express.js + TypeScript + PostgreSQL
-- **Frontend**: Vue 3 + TypeScript + Tailwind CSS
-- **Admin**: Vue 3 + TypeScript + Element Plus
-- **Architecture**: Monorepo
+| Layer       | Tech Stack                              |
+|-------------|------------------------------------------|
+| Backend     | Express.js + TypeScript + PostgreSQL     |
+| Frontend    | Vue 3 + TypeScript + Tailwind CSS        |
+| Admin Panel | Vue 3 + Element Plus (future phase)      |
+| Deployment  | Docker Compose + Monorepo (npm workspaces) |
 
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/yanpinchouli/signflow.git
-cd signflow
+git clone https://github.com/yanpinchouli/openquill.git
+cd openquill
 npm install
 npm run dev
 ```
 
-## 📋 MVP Features
+## 📝 Roadmap
 
-- [ ] User authentication
-- [ ] PDF upload & signature placement
-- [ ] Hand-drawn signatures
-- [ ] Guest signing
-- [ ] Admin panel
-
-## 📄 License
+## License
 
 [MIT](./LICENSE)

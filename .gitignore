@@ -9,10 +9,6 @@ build/
 # Environment variables
 .env*
 
-# Database
-*.sqlite
-*.db
-
 # Prisma generated files
 packages/server/generated/
 
@@ -22,7 +18,11 @@ Thumbs.db      # Windows
 ehthumbs.db    # Windows
 Desktop.ini    # Windows
 
-# SignFlow uploads
+# IDE files
+.vscode/
+.idea/
+
+# Uploads
 packages/server/uploads/*
 !packages/server/uploads/.gitkeep
 
