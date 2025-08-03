@@ -1,32 +1,33 @@
 # OpenQuill
 
-> ✍️ A minimalist, open-source e-signature tool for freelancers and small teams – powered by hand-drawn signing.
+> Simple, open-source e-signature solution for small businesses and individual workers.
 
-## 🚧 Status
+⚠️ **Status: Early Development** - This project is in active development and not ready for production use.
 
-🎯 Focused on building a lean MVP:  
-**Upload a PDF → Place signature field → Invite → Guest signs → Download signed document**  
-No login required. No complexity. Just sign.
+## Tech Stack
 
-## 🛠️ Tech Stack
+| Layer    | Technologies                           |
+|----------|----------------------------------------|
+| Frontend | TypeScript + Vue 3 + PrimeVue + Tailwind CSS |
+| Backend  | TypeScript + Express.js + Prisma + PostgreSQL |
 
-| Layer       | Tech Stack                              |
-|-------------|------------------------------------------|
-| Backend     | Express.js + TypeScript + PostgreSQL     |
-| Frontend    | Vue 3 + TypeScript + Tailwind CSS        |
-| Admin Panel | Vue 3 + Element Plus (future phase)      |
-| Deployment  | Docker Compose + Monorepo (npm workspaces) |
-
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 git clone https://github.com/yanpinchouli/openquill.git
-cd openquill
-npm install
-npm run dev
 ```
 
-## 📝 Roadmap
+```bash
+cd openquill
+```
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
 
 ## License
 
