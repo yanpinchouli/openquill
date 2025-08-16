@@ -14,7 +14,7 @@ build/
 .env*
 
 # Prisma generated files
-packages/server/generated/
+packages/backend/src/generated/prisma
 
 # Coverage reports
 coverage/
@@ -33,8 +33,8 @@ Desktop.ini    # Windows
 *.swo          # Vim
 
 # Uploads
-packages/server/uploads/**/*
-!packages/server/uploads/**/.gitkeep
+packages/backend/uploads/**/*
+!packages/backend/uploads/**/.gitkeep
 
 # Temporary files
 tmp/

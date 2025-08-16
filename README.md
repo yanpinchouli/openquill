@@ -6,9 +6,9 @@
 
 ## Tech Stack
 
-| Layer    | Technologies                           |
-|----------|----------------------------------------|
-| Frontend | TypeScript + Vue 3 + PrimeVue + Tailwind CSS |
+| Layer    | Technologies                                  |
+| -------- | --------------------------------------------- |
+| Frontend | TypeScript + Vue 3 + PrimeVue + Tailwind CSS  |
 | Backend  | TypeScript + Express.js + Prisma + PostgreSQL |
 
 ## Quick Start
